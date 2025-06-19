@@ -6,7 +6,7 @@ import { CreateBookDto } from './dto/create-book.dto';
 import { UpdateBookDto } from './dto/update-book.dto';
 
 @Injectable()
-export class BookService {3
+export class BookService {
 
     constructor(@InjectRepository(BookEntity) private bookRepository: Repository<BookEntity>){}
 
